@@ -1,0 +1,15 @@
+.mainSlider {
+    padding: 60px 0;
+    @media(max-width: 800px){
+        padding: 40px 0;
+    }
+    &__title {
+        font-style: normal;
+        font-weight: 600;
+        font-size: 40px;
+        color: #ffffff;
+        @media(max-width: 600px){
+            font-size: 35px;
+        }
+    }
+}

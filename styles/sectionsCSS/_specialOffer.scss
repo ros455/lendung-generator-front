@@ -1,0 +1,131 @@
+@import "../vars";
+
+.specialOffer {
+    &__title {
+        background-color: $second2;
+        padding: 10px;
+        &-text {
+            color: $prime;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 68px;
+            text-align: center;
+            line-height: 80px;
+            @media (max-width: 945px) {
+                font-size: 45px;
+            }
+            @media (max-width: 645px) {
+                font-size: 30px;
+                line-height: 40px;
+            }
+        }
+    }
+
+    &__generator {
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-top: 140px;
+        padding-bottom: 120px;
+        @media (max-width: 800px) {
+            padding-top: 100px;
+        }
+        @media (max-width: 480px) {
+            padding-top: 120px;
+            padding-bottom: 100px;
+        }
+        &-img {
+            width: 600px;
+
+            @media (max-width: 480px) {
+                width: 600px;
+            }
+            img {
+                width: 100%;
+                height: 100%;
+            }
+        }
+        &-decor {
+            position: absolute;
+            top: 10%;
+            right: 20%;
+            width: 200px;
+            @media (max-width: 1320px) {
+                right: 15%;
+            }
+            @media (max-width: 1129px) {
+                right: 10%;
+            }
+            @media (max-width: 1049px) {
+                right: 5%;
+            }
+            @media (max-width: 985px) {
+                right: 1%;
+                width: 200px;
+            }
+            @media (max-width: 830px) {
+                width: 150px;
+            }
+            @media (max-width: 480px) {
+                width: 100px;
+            }
+            img {
+                width: 100%;
+                height: 100%;
+            }
+        }
+    }
+
+    &__econom {
+        background-color: $second2;
+        padding: 10px;
+        &-title {
+            color: $prime;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 68px;
+            text-align: center;
+            line-height: 80px;
+            text-transform: uppercase;
+            @media (max-width: 945px) {
+                font-size: 45px;
+            }
+            @media (max-width: 645px) {
+                font-size: 30px;
+                line-height: 40px;
+            }
+            @media (max-width: 495px) {
+                font-size: 25px;
+                line-height: 40px;
+            }
+        }
+    }
+
+    &__text {
+        background-color: $prime;
+        padding: 90px 35px;
+        @media (max-width: 845px) {
+            padding: 50px 35px;
+        }
+        @media (max-width: 500px) {
+            padding: 30px 25px;
+        }
+        &-value {
+            font-style: normal;
+            font-weight: 400;
+            font-size: 41px;
+            line-height: 48px;
+            text-align: center;
+            color: #252525;
+            @media (max-width: 845px) {
+                font-size: 30px;
+                line-height: 30px;
+            }
+            @media (max-width: 500px) {
+                font-size: 20px;
+                line-height: 20px;
+            }
+        }
+    }
+}

@@ -1,0 +1,19 @@
+.myButton {
+    // color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    position: relative;
+    color: white;
+    font-size: 4vmin;
+}
+.img11{
+    width: 100%;
+}
+
+.myButtonText{
+    position: absolute;
+    top: 40%;
+    text-align: center;
+}

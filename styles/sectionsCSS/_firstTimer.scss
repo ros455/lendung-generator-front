@@ -1,0 +1,27 @@
+.firstTimer{
+    margin-top: -87px;
+    padding-top: 87px;
+    position: relative;
+    z-index: 1;
+
+    &__row{
+        padding: 150px 0;
+        @media(max-width: 950px) {
+            padding: 50px 0;
+        }
+        @media(max-width: 400px) {
+            padding: 20px 0;
+        }
+    }
+    &__timer{
+    }
+    &__choseGen{
+        margin-top: 70px;
+        @media(max-width: 950px) {
+            margin-top: 40px;
+        }
+        @media(max-width: 400px) {
+            margin-top: 0px;
+        }
+    }
+}

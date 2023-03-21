@@ -1,0 +1,77 @@
+.response {
+    margin-top: 40px;
+    color: white;
+    h2 {
+        font-size: 18px;
+        margin: 20px 0;
+    }
+    input {
+        display: block;
+        box-sizing: border-box;
+        background: #3d3d3d;
+        width: 100%;
+        border-radius: 10px;
+        border: 3px solid #f38a21;
+        height: 70px;
+        padding: 5px 10px;
+        margin-bottom: 5px;
+        color: white;
+        font-size: 30px;
+        @media (max-width: 600px) {
+            font-size: 20px;
+            height: 40px;
+        }
+    }
+
+    select {
+        cursor: pointer;
+        display: block;
+        box-sizing: border-box;
+        background: #3d3d3d;
+        width: 100%;
+        border-radius: 10px;
+        border: 3px solid #f38a21;
+        height: 70px;
+        padding: 5px 10px;
+        margin-bottom: 5px;
+        color: white;
+        font-size: 25px;
+        @media (max-width: 600px) {
+            font-size: 18px;
+            height: 40px;
+        }
+    }
+
+    textarea {
+        display: block;
+        box-sizing: border-box;
+        background: #3d3d3d;
+        width: 100%;
+        border-radius: 10px;
+        border: 3px solid #f38a21;
+        height: 200px;
+        padding: 5px 10px;
+        margin-bottom: 5px;
+        color: white;
+        font-size: 20px;
+        @media (max-width: 600px) {
+            font-size: 18px;
+            height: 140px;
+        }
+    }
+}
+.backHome {
+    text-transform: uppercase;
+    color: white;
+    font-size: 25px;
+    margin-bottom: 50px;
+    :hover{
+        color: rgb(141, 141, 141);
+    }
+
+}
+.backHomeLink{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}

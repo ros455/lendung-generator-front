@@ -1,0 +1,22 @@
+.secondTimer {
+    padding: 50px 0;
+    position: relative;
+    z-index: 1;
+    @media (max-width: 500px) {
+        padding: 20px 0;
+    }
+
+    &__row {
+    }
+    &__timer {
+    }
+    &__get {
+        margin-top: 80px;
+        @media (max-width: 950px) {
+            margin-top: 20px;
+        }
+        @media (max-width: 400px) {
+            margin-top: -20px;
+        }
+    }
+}

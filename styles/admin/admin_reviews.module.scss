@@ -1,0 +1,62 @@
+@import './styles/admin/global-template.scss';
+
+.add_reviews_wrapper {
+text-align: center;
+background-color: #fff;
+height: 100vh;
+}
+
+.add_reviews_block {
+    padding-top: 20px;
+    
+    input,textarea {
+    border: 1px solid black;
+}
+
+div{
+    padding-bottom: 15px;
+    p {
+        padding: 7px 0px;
+        font-weight: 600;
+        font-size: 18px;
+    }
+}
+
+}
+
+.add_reviews_input {
+    width: 200px;
+    height: 21px;
+}
+
+.add_reviews_textarea {
+    resize: none;
+    width: 280px;
+    height: 70px;
+}
+
+.add_reviews_submit_button_wrap {
+    text-align: center;
+    margin-top: 30px;
+    button {
+        @extend %big_button_primary_color_server;
+    }
+}
+
+.add_reviews_photo_button {
+    padding-top: 10px;
+    .upload_photo {
+        @extend %big_button_sucsesed_color_server;
+    }
+}
+
+.handle_delete_button {
+    margin-top: 10px;
+    @extend %big_button_danger_color_server;
+}
+
+.image_wrap {
+    margin: 0 auto;
+    width: 200px;
+    height: 250px;
+}

@@ -1,0 +1,21 @@
+@import './styles/admin/global-template.scss';
+
+.display_time {
+    display: flex;
+    padding: 10px 0px;
+    *{
+        padding: 0px 10px;
+    }
+}
+
+.choise_time {
+    display: flex;
+    align-items: center;
+    *{
+        margin: 0px 10px;
+    }
+}
+
+.handle_edit_button {
+    @extend %big_button_primary_color_server;
+}

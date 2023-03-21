@@ -1,0 +1,27 @@
+.mainVideo {
+    &__description {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 41px;
+        line-height: 48px;
+        text-align: center;
+        color: #ffffff;
+        &-text {
+            padding: 79px 5px;
+        }
+        @media (max-width: 800px) {
+            font-size: 30px;
+            line-height: 30px;
+            &-text {
+                padding: 50px 5px;
+            }
+        }
+        @media (max-width: 420px) {
+            font-size: 20px;
+            line-height: 20px;
+            &-text {
+                padding: 30px 5px;
+            }
+        }
+    }
+}

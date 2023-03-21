@@ -1,0 +1,35 @@
+@import './styles/admin/global-template.scss';
+
+.order_block {
+    display: flex;
+    box-shadow: 0px 1px 0px 0px black;
+    padding: 15px 0px 15px 10px;
+    &:hover {
+        background-color: #e7e7e7;
+    }
+}
+
+.handle_delete_button {
+    @extend %big_button_danger_color_server;
+}
+
+.ordr_item_wrap {
+    padding-left: 20px;
+    background-color: #fff;
+    height: 100vh;
+}
+
+.loader_wrap {
+    @extend %loader_wrap;
+}
+
+.title_order {
+    @extend %title_template_server;
+}
+
+.ordr_item_block {
+    padding-top: 20px;
+    * {
+        padding: 8px 0px;
+    }
+}

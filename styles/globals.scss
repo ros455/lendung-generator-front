@@ -1,0 +1,44 @@
+@import "./libs/reset.scss";
+@import "./vars";
+@import "./pagesCSS/home";
+@import "./componentsCSS/timer";
+@import "./componentsCSS/discount";
+@import './componentsCSS/myButton';
+@import './componentsCSS/myButton2';
+@import "./sectionsCSS/main";
+@import "./componentsCSS/myButtonTop";
+@import './sectionsCSS/firstTimer';
+@import './componentsCSS/slider';
+@import "./sectionsCSS/mainSlider";
+@import './sectionsCSS/specialOffer';
+@import './sectionsCSS/secondTimer';
+@import './sectionsCSS/mainVideo';
+@import "./sectionsCSS/mainWhy";
+@import './sectionsCSS/gensList';
+@import "./sectionsCSS/reviews";
+@import './sectionsCSS/offers';
+@import './sectionsCSS/getGenerator';
+@import './sectionsCSS/thirdTimer';
+@import './sectionsCSS/inputsGens';
+@import './sectionsCSS/receiveGen';
+@import './sectionsCSS/docs';
+@import './pagesCSS/response';
+
+
+body {
+    background-color: $background;
+}
+
+.wrapper {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+[class*="__container"] {
+    max-width: 1230px;
+    margin: 0 auto;
+    padding: 0px 15px;
+
+}

@@ -1,0 +1,42 @@
+.docs {
+    background: #470507;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.15);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    color: #ffffff;
+    padding: 60px 10px;
+    @media(max-width: 830px){
+        font-size: 20px;
+    }
+    @media(max-width: 312px){
+        font-size: 15px;
+    }
+    &__container {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    &__row {
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        padding: 0 120px;
+        @media(max-width: 475px){
+            padding: 0 60px;
+        }
+        @media(max-width: 340px){
+            padding: 0 20px;
+        }
+        &-dot {
+            background: #f38a21;
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            flex: 0 0 auto;
+        }
+        &-value {
+        }
+    }
+}

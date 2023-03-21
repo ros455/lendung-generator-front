@@ -1,0 +1,217 @@
+.gensList {
+    .__item {
+    }
+}
+
+.gens__title {
+    background: #f38a21;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.15);
+    &-value {
+        font-style: normal;
+        font-weight: 600;
+        font-size: 60px;
+        line-height: 70px;
+        text-align: center;
+        text-transform: uppercase;
+        color: #272727;
+        @media(max-width: 800px){
+            font-size: 45px;
+            line-height: 50px;
+        }
+        @media(max-width: 600px){
+            font-size: 35px;
+            line-height: 40px;
+        }
+        @media(max-width: 450px){
+            font-size: 25px;
+            line-height: 30px;
+        }
+        @media(max-width: 350px){
+            font-size: 18px;
+            line-height: 25px;
+        }
+    }
+}
+
+.gens__picture {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    img {
+        padding: 40px;
+        width: 90vw;
+        height: auto;
+        @media (max-width: 680px) {
+            padding: 20px;
+        }
+    }
+}
+
+.gens__discount {
+    margin: 50px 0;
+    @media (max-width: 680px) {
+        margin: 1px 0;
+    }
+}
+
+.gens__timer {
+    margin: 90px 0;
+    @media (max-width: 680px) {
+        margin: 40px 0;
+    }
+}
+
+.gens__text {
+    background: #f38a21;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.15);
+    padding: 30px;
+    @media (max-width: 514px) {
+        padding: 10px;
+    }
+    &-value {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 41px;
+        line-height: 48px;
+        text-align: center;
+        color: #252525;
+
+        @media (max-width: 850px) {
+            font-size: 30px;
+            line-height: 38px;
+        }
+        @media (max-width: 514px) {
+            font-size: 20px;
+            line-height: 28px;
+        }
+    }
+}
+
+.gens__reference {
+    background-color: rgb(30, 30, 30);
+
+    .gens__reference-title {
+        background: #751013;
+        box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.15);
+        font-style: normal;
+        font-weight: 400;
+        font-size: 50px;
+        line-height: 59px;
+        text-align: center;
+        color: #ffffff;
+        padding: 50px 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        cursor: pointer;
+        @media (max-width: 920px) {
+            font-size: 40px;
+            line-height: 49px;
+            padding: 35px 10px;
+        }
+        @media (max-width: 500px) {
+            font-size: 30px;
+            line-height: 35px;
+            padding: 20px 10px;
+        }
+        @media (max-width: 340px) {
+            font-size: 20px;
+            line-height: 25px;
+            padding: 10px;
+        }
+
+        .gens__reference-title-icon {
+            margin-top: 20px;
+            @media (max-width: 500px) {
+                margin-top: 0px;
+                img {
+                    width: 30px;
+                }
+            }
+        }
+    }
+
+    .gens__reference-row {
+        border-bottom: 5px solid #751013;
+        padding: 40px 5px;
+    }
+
+
+
+    .gens__reference-keyValue {
+        display: flex;
+        .gens__reference-keyValue-key {
+            flex: 1 1 50%;
+        }
+        .gens__reference-keyValue-value {
+            flex: 1 1 50%;
+            text-align: end;
+        }
+    }
+
+    .gens__reference-dashed {
+        margin: 10px 0;
+        border-top: 2px dashed #9f0e15;
+        width: 100%;
+    }
+}
+
+.gens__reference-row-border-first {
+    display: flex;
+    flex-direction: column;
+    font-size: 35px;
+    color: #ffffff;
+    gap: 15px;
+    overflow: hidden;
+    @media (max-width: 920px) {
+        font-size: 20px;
+    }
+    @media (max-width: 490px) {
+        font-size: 18px;
+    }
+    @media (max-width: 300px) {
+        font-size: 12px;
+    }
+}
+.gens__reference-row-border-second {
+    display: flex;
+    flex-direction: column;
+    font-size: 35px;
+    color: #ffffff;
+    gap: 15px;
+    overflow: hidden;
+    @media (max-width: 920px) {
+        font-size: 20px;
+    }
+    @media (max-width: 490px) {
+        font-size: 18px;
+    }
+    @media (max-width: 300px) {
+        font-size: 12px;
+    }
+}
+.gens__reference-row-border-third {
+    display: flex;
+    flex-direction: column;
+    font-size: 35px;
+    color: #ffffff;
+    gap: 15px;
+    overflow: hidden;
+    @media (max-width: 920px) {
+        font-size: 20px;
+    }
+    @media (max-width: 490px) {
+        font-size: 18px;
+    }
+    @media (max-width: 300px) {
+        font-size: 12px;
+    }
+}
+
+.gens__buy {
+    padding: 87px 10px;
+    @media (max-width: 520px) {
+        padding: 1px 10px;
+    }
+}

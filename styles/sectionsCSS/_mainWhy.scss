@@ -1,0 +1,73 @@
+.mainWhy {
+    padding: 50px 5px;
+    &__row {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    &__title1 {
+        text-transform: uppercase;
+        text-align: center;
+        font-size: 60px;
+        font-weight: 600;
+        font-style: normal;
+        color: #9f0e15;
+        @media (max-width: 800px) {
+            font-size: 40px;
+        }
+        @media (max-width: 450px) {
+            font-size: 25px;
+        }
+    }
+    &__title2 {
+        margin: 30px 0;
+        text-transform: uppercase;
+        color: #f38a21;
+        text-align: center;
+        font-size: 81px;
+        font-weight: 600;
+        font-style: normal;
+        @media (max-width: 800px) {
+            font-size: 50px;
+        }
+        @media (max-width: 450px) {
+            font-size: 30px;
+        }
+    }
+    &__items {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+        &-icon {
+        }
+        &-title {
+            color: #f38a21;
+            text-transform: uppercase;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 47px;
+            text-align: center;
+            @media (max-width: 450px) {
+                font-size: 30px;
+            }
+        }
+        &-text {
+            font-style: normal;
+            font-weight: 600;
+            font-size: 40px;
+            text-align: center;
+            color: #ffffff;
+            max-width: 729px;
+            line-height: 47px;
+            @media (max-width: 450px) {
+                font-size: 25px;
+            }
+        }
+    }
+    &__dashed {
+        margin: 30px 0;
+        border-top: 2px dashed #9f0e15;
+        width: 100%;
+    }
+}
