@@ -154,7 +154,7 @@ const TemplateDetailReview = ({review,deleteUrl,updateReviewUrl,updateImageUrl,u
             <h3 className={style.review_desc}>Опис: {review?.description}</h3>
           </div>
         </div>
-        <div>
+        <div className={style.edit_form}>
           {isOpen && (
             <div className={style.image_wrap}>
               {review?.imageUrl 
@@ -198,7 +198,7 @@ const TemplateDetailReview = ({review,deleteUrl,updateReviewUrl,updateImageUrl,u
               <textarea value={description} onChange={(e) => setDescription(e.target.value)} />
               <p>Поставте оцінку</p>
               <input type='number' value={rating} onChange={(e) => setRating(e.target.value)} />
-              <p>Вкажіть дату:</p>
+              <p>Вкажіть дату</p>
               <input type='date' value={date} onChange={(e) => setDate(e.target.value)} />
               </div>
               <div className={style.edit_button_wrap}>

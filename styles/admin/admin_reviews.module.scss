@@ -36,8 +36,9 @@ div{
 }
 
 .add_reviews_submit_button_wrap {
+    background-color: #fff;
     text-align: center;
-    margin-top: 30px;
+    padding-top: 30px;
     button {
         @extend %big_button_primary_color_server;
     }
@@ -59,4 +60,8 @@ div{
     margin: 0 auto;
     width: 200px;
     height: 250px;
+}
+
+.add_text_input_wrap {
+    background-color: white;
 }

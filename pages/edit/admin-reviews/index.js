@@ -84,20 +84,20 @@ const AddReview = () => {
                         onClick={() => inputFileRef.current.click()}>Завантажити фото</button>
                     </div>
                 </div>
-                <div>
+                <div className={style.add_text_input_wrap}>
                     <p>Вкажіть імя</p>
                     <input className={style.add_reviews_input} type='text' onChange={(e) => setName(e.target.value)} />
                 </div>
-                <div>
+                <div className={style.add_text_input_wrap}>
                     <p>Ваш коментар</p>
                     <textarea className={style.add_reviews_textarea} onChange={(e) => setDescription(e.target.value)} />
                 </div>
-                <div>
+                <div className={style.add_text_input_wrap}>
                     <p>Поставте оцінку (не быліше 5)</p>
                     <input className={style.add_reviews_input} type='number'
                         onChange={(e) => setRating(e.target.value > 5 || e.target.value < 1 ? 5 : e.target.value)} />
                 </div>
-                <div>
+                <div className={style.add_text_input_wrap}>
                     <p>Вкажіть дату:</p>
                     <input type='date' onChange={(e) => setDate(e.target.value)} />
                 </div>
