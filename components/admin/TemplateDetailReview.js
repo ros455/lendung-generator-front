@@ -111,7 +111,7 @@ const TemplateDetailReview = ({review,deleteUrl,updateReviewUrl,updateImageUrl,u
           formData.append('name', review?.name);
           formData.append('rating', review?.rating);
           formData.append('description', review?.description);
-          formData.append('date', date);
+          formData.append('date', review?.date);
           const response = await fetch('https://lending-generator-server.herokuapp.com/create-comment', {
               method: 'POST',
               body: formData
@@ -131,7 +131,7 @@ const TemplateDetailReview = ({review,deleteUrl,updateReviewUrl,updateImageUrl,u
     setImageFile(event.target.files[0]);
   };
 
-  console.log('review?.imageUrl',typeof(review?.imageUrl));
+  console.log('review',review);
 
     return (
         <div className={style.main_review_block}>
@@ -149,7 +149,10 @@ const TemplateDetailReview = ({review,deleteUrl,updateReviewUrl,updateImageUrl,u
           </div>
           <div className={style.review_text_block}>
             <h3>{review?.name}</h3>
-            <p>{review?.date}</p>
+            {/* <p>{review?.date ? review?.date : new Date(review.createdAt).toISOString().slice(0, 10)}</p> */}
+            {/* <p>{new Date(review.createdAt).toISOString().slice(0, 10)}</p> */}
+            {/* <p>{review.createdAt.slice(0, 10)}</p> */}
+            <p>{review?.date ? review?.date : review.createdAt}</p>
             <h3>Рейтинг: {review?.rating}</h3>
             <h3 className={style.review_desc}>Опис: {review?.description}</h3>
           </div>

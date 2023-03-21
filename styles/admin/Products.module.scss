@@ -36,6 +36,11 @@
     display: flex;
     width: 100%;
     justify-content: space-around;
+
+    input,
+    select {
+        border: 1px solid black;
+    }
 }
 
 .edit_button_block {

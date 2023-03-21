@@ -18,11 +18,19 @@ const response = () => {
 
     const handleSubmit = async (event) => {
         try {
+            const today = new Date();
+            const year = today.getFullYear();
+            const month = (today.getMonth() + 1).toString().padStart(2, '0');
+            const day = today.getDate().toString().padStart(2, '0');
+            const currentDate = `${year}-${month}-${day}`;
+
+
             const formData = new FormData();
             formData.append('imageUrl', selectedFile);
             formData.append('name', clientName);
             formData.append('rating', clientNumber);
             formData.append('description', clientText);
+            formData.append('dete', currentDate);
             const response = await fetch('https://lending-generator-server.herokuapp.com/create-user-comment', {
                 method: 'POST',
                 body: formData

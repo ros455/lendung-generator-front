@@ -54,9 +54,9 @@ function Timer() {
     <div>
         <div className={style.display_time}>
             <h4>Таймер</h4>
-            <h4>{days <= 0 ? 0 : days } днів</h4>
-            <h4>{hours <= 0 ? 0 : hours} годин</h4>
-            <h4>{minutes <= 0 ? 0 : minutes} хвилин</h4>
+            <h4>{days <= 0 || isNaN(days) ? 0 : days } днів</h4>
+            <h4>{hours <= 0 || isNaN(hours) ? 0 : hours} годин</h4>
+            <h4>{minutes <= 0 || isNaN(minutes) ? 0 : minutes} хвилин</h4>
         </div>
       <div className={style.choise_time}>
         <p>Вибрати дату</p>
