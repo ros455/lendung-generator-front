@@ -30,7 +30,7 @@ const response = () => {
             formData.append('name', clientName);
             formData.append('rating', clientNumber);
             formData.append('description', clientText);
-            formData.append('dete', currentDate);
+            formData.append('date', currentDate);
             const response = await fetch('https://lending-generator-server.herokuapp.com/create-user-comment', {
                 method: 'POST',
                 body: formData
