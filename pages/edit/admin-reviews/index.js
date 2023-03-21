@@ -28,7 +28,7 @@ const AddReview = () => {
             });
 
             setTimeout(() => {
-                router.push('/admin/edit');
+                router.push('/edit/admin');
               },500) 
         } catch (error) {
             console.error(error);
