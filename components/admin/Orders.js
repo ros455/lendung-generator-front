@@ -20,7 +20,7 @@ const Orders = () => {
     return (
         <div>
             <h2 className={style.title_order}>Замовлення</h2>
-            <div>
+            <div className={style.order_wrap}>
                 {sortOrders.length != 0
                     ?
                     <>
