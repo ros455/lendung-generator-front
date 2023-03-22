@@ -60,3 +60,7 @@
 .title_products {
     @extend %title_template_server;
 }
+
+.product_wrap {
+    background-color: white;
+}

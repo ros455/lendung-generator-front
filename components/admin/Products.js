@@ -51,7 +51,7 @@ const Products = () => {
     }
 
     return (
-        <div>
+        <div className={style.product_wrap}>
             <div>
                 <h2 className={style.title_products}>Товари</h2>
             </div>

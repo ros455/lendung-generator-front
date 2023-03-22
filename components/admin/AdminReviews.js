@@ -17,7 +17,7 @@ const AdminReviews = () => {
     }
 
     return (
-        <div>
+        <div className={style.admin_review_wrap}>
             <div>
                 <h2 className={style.title_admin_review}>Відгуки на сайті</h2>
             </div>

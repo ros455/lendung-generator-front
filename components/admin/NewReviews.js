@@ -13,7 +13,7 @@ const NewReviews = () => {
     },[])
 
     return (
-        <div>
+        <div className={style.new_review_wrap}>
             <div>
                 <h2 className={style.title_admin_review}>Нові відгуки</h2>
             </div>
