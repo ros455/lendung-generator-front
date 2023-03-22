@@ -16,18 +16,16 @@ const AdminReviews = () => {
         router.push('admin-reviews');
     }
 
-    console.log('reviews',reviews);
-
     return (
         <div>
             <div>
                 <h2 className={style.title_admin_review}>Відгуки на сайті</h2>
             </div>
-            {reviews.length != 0 ?
-                <>
-                    <div className={style.add_review_button_wrapper}>
+            <div className={style.add_review_button_wrapper}>
                         <button className={style.add_review_button} onClick={redirectFunc}>Додати відгук</button>
                     </div>
+            {reviews.length != 0 ?
+                <>
                     <TemalateReviews reviews={reviews} url='admin-reviews/' />
                 </>
             :

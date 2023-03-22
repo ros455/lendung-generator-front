@@ -15,6 +15,7 @@
     "react-hook-form": "^7.43.7",
     "react-icons": "^4.8.0",
     "react-player": "^2.12.0",
+    "react-star-ratings": "^2.3.0",
     "sass": "^1.59.3",
     "swr": "^2.1.0"
   }

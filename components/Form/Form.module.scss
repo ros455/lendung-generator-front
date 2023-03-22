@@ -1,8 +1,8 @@
 .formContainer {
     padding: 5px 60px;
     width: 100%;
-    @media(max-width: 400px){
-    padding: 5px 10px;
+    @media (max-width: 400px) {
+        padding: 5px 10px;
     }
     form {
         width: 100%;
@@ -38,6 +38,12 @@
             height: 40px;
         }
     }
+
+    // .inpNumber {
+    //     -webkit-appearance: none;
+    //     margin: 0;
+    //     -moz-appearance: textfield;
+    // }
 
     select {
         cursor: pointer;
@@ -75,7 +81,7 @@
             height: 140px;
         }
     }
-    .submitBorder{
+    .submitBorder {
         margin-top: 40px;
         // padding: 0 100px;
         @media (max-width: 765px) {
@@ -108,7 +114,6 @@
             padding: 5px;
             font-size: 12px;
             letter-spacing: 1px;
-            
         }
     }
 

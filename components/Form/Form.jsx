@@ -32,7 +32,6 @@ const Form = ({ fetchedGens, errorFetchedGens, isLoadingFetchedGens }) => {
             }
         };
         sendData();
-        alert('Відправлено')
     });
     return (
         <div className={stl.formContainer}>
@@ -59,6 +58,7 @@ const Form = ({ fetchedGens, errorFetchedGens, isLoadingFetchedGens }) => {
                     )}
                 </div>
                 <input
+                className={stl.inpNumber}
                     placeholder="Номер телефону"
                     type="number"
                     {...register("phone", {

@@ -100,8 +100,6 @@ const TemplateDetailReview = ({review,deleteUrl,updateReviewUrl,updateImageUrl,u
         console.error(error);
       }
     }
-
-    console.log('review',review);
   
     const publish = async (event) => {
       event.preventDefault();
@@ -130,8 +128,6 @@ const TemplateDetailReview = ({review,deleteUrl,updateReviewUrl,updateImageUrl,u
   const handleFileChange = async (event) => {
     setImageFile(event.target.files[0]);
   };
-
-  console.log('review',review);
 
     return (
         <div className={style.main_review_block}>

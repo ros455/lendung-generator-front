@@ -12,10 +12,10 @@ const Slider = () => {
     }, [slideIndex]);
 
     const nextSlide = () => {
-        if (slideIndex !== 3) {
+        if (slideIndex !== 5) {
             setSlideIndex(slideIndex + 1)
         }
-        else if (slideIndex === 3) {
+        else if (slideIndex === 5) {
             setSlideIndex(1)
         }
     }
@@ -34,14 +34,14 @@ const Slider = () => {
     }
     return (
         <div className="container-slider">
-            {Array.from({ length: 3 }).map((_, index) => {
+            {Array.from({ length: 5 }).map((_, index) => {
                 return (
                     <div
                         key={index.toString()}
                         className={slideIndex === index + 1 ? "slide active-anim" : "slide"}
                     >
                         <Image
-                            src={`/img/slider/${index + 1}.jpg`}
+                            src={`/img/slider/${index + 1}.png`}
                             width={900}
                             height={600}
                             alt="Slider"
@@ -51,7 +51,7 @@ const Slider = () => {
             })}
 
             <div className="container-dots">
-                {Array.from({ length: 3 }).map((item, index) => (
+                {Array.from({ length: 5 }).map((item, index) => (
                     <div
                     key={index+100}
                         // onClick={() => moveDot(index + 1)}

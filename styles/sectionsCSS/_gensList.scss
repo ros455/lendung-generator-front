@@ -6,6 +6,10 @@
 .gens__title {
     background: #f38a21;
     box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.15);
+    margin-bottom: 40px;
+    @media(max-width: 668px){
+        margin-bottom: 20px;
+    }
     &-value {
         font-style: normal;
         font-weight: 600;

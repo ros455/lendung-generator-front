@@ -7,7 +7,7 @@ const index = () => {
         const admin = localStorage.getItem('isAdmin') === 'true';
         setIsAdmin(admin);
     },[])
-    console.log('isAdmin',isAdmin);
+    
     return (
         <div>
             {isAdmin 

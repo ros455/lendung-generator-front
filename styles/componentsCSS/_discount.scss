@@ -105,6 +105,7 @@
         }
         span {
             font-size: 70px;
+            color: #232323;
             @media (max-width: 1250px) {
                 font-size: 60px;
             }
@@ -281,7 +282,7 @@
             font-weight: 600;
             font-size: 106px;
             display: flex;
-            align-items: flex-end;
+            align-items: baseline;
             justify-content: flex-end;
             @media (max-width: 1250px) {
                 font-size: 90px;

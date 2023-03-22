@@ -2,6 +2,7 @@ import React, { useState, useRef } from 'react';
 import { useRouter } from 'next/router';
 import style from '../../../styles/admin/admin_reviews.module.scss';
 import Image from 'next/legacy/image';
+
 const AddReview = () => {
     const router = useRouter();
     const inputFileRef = useRef(null);
