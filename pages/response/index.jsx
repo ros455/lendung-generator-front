@@ -44,7 +44,7 @@ const response = () => {
     const sendResponse = () => {
         handleSubmit();
         router.push('/');
-
+        alert("Відгук відправлено")
     }
 
     return (

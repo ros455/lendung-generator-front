@@ -13,7 +13,7 @@ const Orders = () => {
     }, [])
 
     useEffect(() => {
-        const newArr = [...orders].sort((a, b) => new Date(b.createdAt) - new Date(a.createdAt));
+        const newArr = [...orders].sort((a, b) => new (b.createdAt) - new Date(a.createdAt));
         setSortOrders([...newArr]);
     },[orders])
 

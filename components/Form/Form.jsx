@@ -32,6 +32,7 @@ const Form = ({ fetchedGens, errorFetchedGens, isLoadingFetchedGens }) => {
             }
         };
         sendData();
+        alert('Замовлення успішно відправлено')
     });
     return (
         <div className={stl.formContainer}>

@@ -474,11 +474,11 @@ export default function Home() {
                     <div className="gensList__item">
                         <div className="gens__title">
                             <div className="gens__title-value __container">
-                                Газово-бензиновий генератор {luotian3800Title}
+                            ГАЗОВО-БЕНЗИНОВИЙ ГЕНЕРАТОР LUOTIAN 3800 3 КВТ
                             </div>
                         </div>
                         <div className="gens__picture __container">
-                            <Image src={genImg1} alt="generator" />
+                            <Image src={genImg2} alt="generator" />
                         </div>
                         <div className="gens__discount">
                             <Discount
@@ -726,7 +726,7 @@ export default function Home() {
                                 >
                                     Замовити зі знижкою
                                     <br />
-                                    {luotian3800Title}
+                                    LUOTIAN 3800 3 кВт
                                 </MyButton2>
                             </a>
                         </div>
@@ -734,11 +734,11 @@ export default function Home() {
                     <div className="gensList__item">
                         <div className="gens__title">
                             <div className="gens__title-value __container">
-                                Газово-бензиновий генератор {luotian4500Title}
+                            БЕНЗИНОВИЙ ГЕНЕРАТОР LUOTIAN 4500 4,5 КВТ
                             </div>
                         </div>
                         <div className="gens__picture __container">
-                            <Image src={genImg2} alt="generator" />
+                            <Image src={genImg1} alt="generator" />
                         </div>
                         <div className="gens__discount">
                             <Discount
@@ -986,7 +986,7 @@ export default function Home() {
                                 >
                                     Замовити зі знижкою
                                     <br />
-                                    {luotian4500Title}
+                                    LUOTIAN 4500 4,5 КВТ
                                 </MyButton2>
                             </a>
                         </div>
@@ -994,7 +994,7 @@ export default function Home() {
                     <div className="gensList__item">
                         <div className="gens__title">
                             <div className="gens__title-value __container">
-                                Газово-бензиновий генератор {luotian6500Title}
+                            ГАЗОВО-БЕНЗИНОВИЙ ГЕНЕРАТОР LUOTIAN 6500 6.5 КВТ
                             </div>
                         </div>
                         <div className="gens__picture __container">
@@ -1246,7 +1246,7 @@ export default function Home() {
                                 >
                                     Замовити зі знижкою
                                     <br />
-                                    {luotian6500Title}
+                                    LUOTIAN 6500 6.5 КВТ
                                 </MyButton2>
                             </a>
                         </div>
